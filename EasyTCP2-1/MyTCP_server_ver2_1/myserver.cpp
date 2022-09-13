@@ -98,8 +98,10 @@ void Myeasyserver::Close(){
     if(_sock!=INVALID_SOCKET){
         int sizenum= _cellservers.size();
         for (int n =0; n< sizenum; n++) {
-            delete _cellservers[n];
-            _cellservers[n] = nullptr;
+            if (_cellservers[n] != nullptr) {
+                delete _cellservers[n];
+                _cellservers[n] = nullptr;
+            }
         }
     _cellservers.erase(_cellservers.begin(),_cellservers.end());
 #ifdef _WIN32

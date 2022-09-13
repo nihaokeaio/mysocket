@@ -1,50 +1,54 @@
 #include"myserver.h"
 
 
-void Cellserver::Close(){
-    if(_sock!=INVALID_SOCKET){
-        for(int n=(int)_clients.size()-1;n>=0;n--){       
-        if(_clients[n]!=nullptr){
-            delete _clients[n];
-            _clients[n]=nullptr;
-        }        
-    }
-    _clients.erase(_clients.begin(),_clients.end());
-    #ifdef _WIN32    
-        closesocket(_sock);
-    #else
-        close(_sock);
-    #endif
-        //_sock=INVALID_SOCKET;
+void Cellserver::Close() {
+    if (_sock != INVALID_SOCKET) {
+        for (int n = (int)_clients.size() - 1; n >= 0; n--) {
+            if (_clients[n] != nullptr) {
+                delete _clients[n];
+                _clients[n] = nullptr;
+            }
+        }
+        _clients.erase(_clients.begin(), _clients.end());
     }
 }
 
 bool Cellserver::OnRun(){
+    fd_set fdReads, allReads;
+    SOCKET maxsock = _sock;
+    FD_ZERO(&fdReads);
+    FD_ZERO(&allReads);
+    bool Need_scan = false;
     while(isRun()){
-        if(!_clientsBuff.empty()){
-            std::lock_guard<std::mutex>lock(_mutex);
-            for(auto x:_clientsBuff){
-                _clients.push_back(x);
+        if (!_clientsBuff.empty()||Need_scan) {
+            {
+                std::lock_guard<std::mutex>lock(_mutex);
+                for (auto x : _clientsBuff) {
+                    _clients.push_back(x);
+                }
             }
             _clientsBuff.clear();
+            FD_ZERO(&fdReads);
+            FD_ZERO(&allReads);
+            for (int n = (int)_clients.size() - 1; n >= 0; n--) {
+                FD_SET(_clients[n]->getsock(), &fdReads);
+                if (maxsock < _clients[n]->getsock()) {
+                    maxsock = _clients[n]->getsock();
+                }
+            }
+            Need_scan = false;
+            allReads = fdReads;
+        }
+        else
+        {
+            fdReads = allReads;
         }
         if(_clients.empty()){
             std::chrono::milliseconds t(10);
             std::this_thread::sleep_for(t);
             continue;
         }
-        fd_set fdReads;
-
-        FD_ZERO(&fdReads);
-
-        SOCKET maxsock=_sock;
-        
-        for(int n=(int)_clients.size()-1;n>=0;n--){
-            FD_SET(_clients[n]->getsock(),&fdReads);
-            if(maxsock<_clients[n]->getsock()){
-                maxsock=_clients[n]->getsock();
-            }
-        }
+     
         timeval t={1,0};
         int ret =select(maxsock+1,&fdReads,nullptr,nullptr,&t);
         if(ret<0){
@@ -56,8 +60,9 @@ bool Cellserver::OnRun(){
             if(FD_ISSET(_clients[n]->getsock(),&fdReads)){
                 if(-1==RecvDate(_clients[n])){
                     auto iter=_clients.begin()+n;
-                    if(iter!=_clients.end()){                       
+                    if(iter!=_clients.end()){                                                                     
                         _clients.erase(iter);
+                        Need_scan = true;
                     }
                 }
             }
@@ -67,19 +72,19 @@ bool Cellserver::OnRun(){
 }
 
 bool Cellserver::isRun(){
-    return _sock!=INVALID_SOCKET;
+    return _sock!=INVALID_SOCKET&& cmdOnRun;
 }
 
 
 int Cellserver::RecvDate(ClientSock* csock){
     int nlen=(int)recv(csock->getsock(),_szRecv,sizeof(_szRecv),0);//取出头部信息，两个short长度
     if(nlen<=0){
-        printf("socket <%d> 与服务器断开连接...\n",csock->getsock());
+        printf("socket <%d> 与服务器断开连接...\n",csock->getsock()); 
         OnMsgToleave(csock);
-        csock->Close();
-        if(csock!=nullptr){
+        //csock->Close();
+        if (csock != nullptr) {
             delete csock;
-            csock=nullptr;
+            csock = nullptr;
         }
         return -1;
     }

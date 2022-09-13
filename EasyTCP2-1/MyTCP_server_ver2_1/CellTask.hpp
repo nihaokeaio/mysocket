@@ -33,11 +33,11 @@ public:
     void OnRun(){
         while(true){
             if(!_taskBuf.empty()){
-            std::lock_guard<std::mutex>lock(_mutex);
-            for(auto ptask:_taskBuf){
-                _tasks.push_back(ptask);
-            }
-            _taskBuf.clear();
+                std::lock_guard<std::mutex>lock(_mutex);
+                for(auto ptask:_taskBuf){
+                    _tasks.push_back(ptask);
+                }
+                _taskBuf.clear();
             }
         //如果没有任务
             if(_tasks.empty()){

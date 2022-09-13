@@ -58,6 +58,7 @@ private:
     std::vector<ClientSock*>_clientsBuff;
     SOCKET _sock;
     char* _szRecv;
+    bool cmdOnRun;
     std::mutex _mutex;
     std::thread _pthread;
     Inetclient* _pclientleave;
@@ -66,15 +67,17 @@ public:
        
     Cellserver(SOCKET sock=INVALID_SOCKET, Inetclient* plient=nullptr){
         _sock=sock;
-
+        cmdOnRun = true;
         _pclientleave = plient;
         _szRecv = new char[BUFFER_SIZE];
     }
     ~Cellserver(){
+        cmdOnRun = false;
+        while (OnRun());
         Close();
         printf("Cellserver  is exit !\n");
         delete[] _szRecv;
-        _sock=INVALID_SOCKET;
+        _szRecv = nullptr;
     }
     //¹Ø±Õsocket
     void Close();
@@ -114,7 +117,7 @@ public:
     }
     ~ClientSock(){
         delete[] _szMsgBuf;
-        //printf("ClientSock _szMsgbuff is pop\n");
+        printf("ClientSock _szMsgbuff is pop\n");
         Close();
     }
     SOCKET getsock(){
