@@ -1,0 +1,4 @@
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/easyclient_ver4/build/CMakeFiles/clientmain.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/easyclient_ver4/build/CMakeFiles/servermain.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/easyclient_ver4/build/CMakeFiles/edit_cache.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/easyclient_ver4/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+#cmake .. -G "Unix Makefiles"
+cmake_minimum_required(VERSION 3.24.1)
+project(TCLCONNECT)
+add_compile_options(-std=c++11)
+include_directories(./MyTCP_server_ver5 ./MyTCP_client_ver5)
+file(GLOB_RECURSE CLIENT 
+    ./MyTCP_client_ver5/*.cpp
+)
+
+file(GLOB_RECURSE SERVER 
+    ./MyTCP_server_ver5/*.cpp
+)
+
+add_executable(clientmain ${CLIENT})
+add_executable(servermain ${SERVER})
+
+if(WIN32)
+  target_link_libraries(clientmain wsock32 ws2_32)
+  target_link_libraries(servermain wsock32 ws2_32)
+endif()
