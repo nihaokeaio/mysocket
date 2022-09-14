@@ -2,6 +2,7 @@
 
 
 void Cellserver::Close() {
+    _cmdOnRun = false;
     if (_sock != INVALID_SOCKET) {
         for (int n = (int)_clients.size() - 1; n >= 0; n--) {
             if (_clients[n] != nullptr) {
@@ -72,7 +73,7 @@ bool Cellserver::OnRun(){
 }
 
 bool Cellserver::isRun(){
-    return _sock!=INVALID_SOCKET&& cmdOnRun;
+    return _sock!=INVALID_SOCKET&& _cmdOnRun;
 }
 
 

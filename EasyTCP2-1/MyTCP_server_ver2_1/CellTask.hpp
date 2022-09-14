@@ -19,7 +19,7 @@ private:
     std::mutex _mutex;
 public:
     CelltaskServer(){}
-    ~CelltaskServer(){}
+    virtual ~CelltaskServer(){}
     void addtask(CellTask* task){
         std::lock_guard<std::mutex>lock(_mutex);
         _taskBuf.push_back(task);

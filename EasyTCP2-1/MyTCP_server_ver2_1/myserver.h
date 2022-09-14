@@ -18,13 +18,14 @@
     #define SOCKET_ERROR           (-1)
 #endif
 
-
+#include<memory>
 #include<stdio.h>
 #include<vector>
 #include<set>
 #include"CELLTimestamp.h"
 #include"Messagehead.hpp"
 #include"CellTask.hpp"
+
 #ifndef BUFFER_SIZE
     #define BUFFER_SIZE 1024
 #endif
@@ -43,6 +44,7 @@ public:
     virtual void ClientleaveOn(ClientSock* pclient)=0;
     virtual void Msgcount()=0;
     virtual void Recvcount()=0;
+    virtual ~Inetclient(){}
 };
 
 //网络消息发送任务
@@ -58,7 +60,7 @@ private:
     std::vector<ClientSock*>_clientsBuff;
     SOCKET _sock;
     char* _szRecv;
-    bool cmdOnRun;
+    bool _cmdOnRun;
     std::mutex _mutex;
     std::thread _pthread;
     Inetclient* _pclientleave;
@@ -67,12 +69,12 @@ public:
        
     Cellserver(SOCKET sock=INVALID_SOCKET, Inetclient* plient=nullptr){
         _sock=sock;
-        cmdOnRun = true;
+        _cmdOnRun = true;
         _pclientleave = plient;
         _szRecv = new char[BUFFER_SIZE];
     }
     ~Cellserver(){
-        cmdOnRun = false;
+        _cmdOnRun = false;
         while (OnRun());
         Close();
         printf("Cellserver  is exit !\n");
@@ -92,7 +94,7 @@ public:
     //发送数据
     int SendData(ClientSock* csock, DataHeader* header);
     void SendDataToAll(DataHeader* header);
-    void Clear_client();
+    //void Clear_client();
     void addClient(ClientSock* pclient);
     void start();
     size_t getclientcount();
@@ -100,6 +102,10 @@ public:
     void OnMsgCount();
     void OnRecvCount();
     void addSendTask(CellTask* task);
+    void Closecellserver() {
+        _cmdOnRun = 0;
+    }
+
 };
 
 //对接客户端的SOCKET
@@ -159,14 +165,16 @@ class Myeasyserver:public Inetclient
 private:
     SOCKET _sock;
     std::atomic_int _msgcount;
+    std::atomic_int _clientCount;
     std::atomic_int _recvcount;
     char _szRecv[BUFFER_SIZE];
     CELLTimestamp _curtime;
-    std::set<ClientSock*>g_clients;  
-    std::vector<Cellserver*>_cellservers;
+    //std::set<ClientSock*>g_clients;  
+    std::vector<std::shared_ptr<Cellserver>>_cellservers;
 public:
 
     Myeasyserver(){
+        _clientCount = 0;
         _msgcount=0;
         _recvcount=0;
         _sock=INVALID_SOCKET;
@@ -199,6 +207,7 @@ public:
     //打印接受信息
     void getMsgOnClient();
     void ClientleaveOn(ClientSock* pclient);
+    void OnNetJoin(ClientSock* plient);
     void Msgcount();
     void Recvcount();
 };
