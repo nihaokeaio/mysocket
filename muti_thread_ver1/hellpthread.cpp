@@ -2,40 +2,48 @@
 #include<thread>
 #include"CELLTimestamp.h"
 #include<mutex>
-#include<atomic>
+//#include <stdlib.h>
+#include"..//HelloMemory//Alloc.h"
 using namespace std;
-atomic_int sum=0;
 mutex mux;
+
+
+
+
+const int tCount =12;
+const int MCount = 1000000;
+const int nCount = MCount/ tCount;
+
 void getsum(){
     
-    for(int i=0;i<10000000;i++){//循环外加锁消耗<不加锁*线程个数<lock_guard<<使用原子变量<循环内加普通锁<循环内加lock_guard
-        //lock_guard<mutex>lg(mux);
-        //mux.lock();
-        sum++;
-        //mux.unlock();
+    char* data[nCount];
+    for (int i = 0; i < nCount; i++) {
+        data[i] = new char[1 + (rand()%128)];
+
     }
-    
+    for (int i = 0; i < nCount; i++) {
+        delete[] data[i];
+    }    
     return;
 }
 
-int tcount=10;
+
 int main(){
-    thread t[tcount];
+    thread t[tCount];
     CELLTimestamp start;
-    for(int i=0;i<tcount;i++){
+    for(int i=0;i< tCount;i++){
         t[i]=thread(getsum);
     }
-    for(int i=0;i<tcount;i++){
+    for(int i=0;i< tCount;i++){
         t[i].join();
     }
-    cout<<"sum="<<sum<<endl;
     cout<<"using time is "<<start.getElapsedsecondInMillSec()<<endl;
-    start.update();
-    sum=0;
+    /*start.update();
     for(int i=0;i<100000000;i++){
-        sum++;       
+               
     }
-    cout<<"using time is "<<start.getElapsedsecondInMillSec()<<endl;
+    */
+    cout<<"hello world"<<endl;
     //system("pause");
     return 0;
 }

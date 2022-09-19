@@ -1,0 +1,8 @@
+#cmake .. -G "Unix Makefiles"
+cmake_minimum_required(VERSION 3.24.1)
+project(TCLCONNECT)
+add_compile_options(-std=c++11)
+#add_library(Alloc)
+
+
+add_executable(main.exe main.cpp)
