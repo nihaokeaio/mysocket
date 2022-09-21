@@ -17,9 +17,9 @@ class MemoryMgr;
 //
 #ifdef _DEBUG
 #include <stdio.h>
-#define xPrint(...) printf(__VA_ARGS__)
+    #define xPrint(...) printf(__VA_ARGS__)
 #else
-#define xPrint(...)
+    #define xPrint(...)
 #endif // DEBUG
 
 //内存块
@@ -86,15 +86,12 @@ public:
         MemoryBlock *pReturn = nullptr;
         if (nullptr == _pHeader)
         {
-            pReturn = (MemoryBlock *)malloc(nSize + sizeof(MemoryBlock));
-            if (nullptr != pReturn)
-            {
-                pReturn->bPool = false;
-                pReturn->nID = -1;
-                pReturn->Ref = 1;
-                pReturn->pAlloc = nullptr;
-                pReturn->pNext = nullptr;
-            }
+            pReturn = (MemoryBlock *)malloc(nSize + sizeof(MemoryBlock));  
+            pReturn->bPool = false;
+            pReturn->nID = -1;
+            pReturn->Ref = 1;
+            pReturn->pAlloc = nullptr;
+            pReturn->pNext = nullptr;
         }
         else
         {
@@ -103,7 +100,8 @@ public:
             assert(0 == pReturn->Ref);
             pReturn->Ref = 1;
         }
-        //xPrint("allocMem: %llx, id=%d,size=%d \n", pReturn, pReturn->nID, nSize);
+        //xPrint("allocMem: %llx, id= %d,size=%d \n", pReturn, pReturn->nID, nSize);
+        //printf("allocMem: %llx, id= %d, size=%d \n", pReturn, pReturn->nID, nSize);
         return (char *)pReturn + sizeof(MemoryBlock);
     }
     //释放内存
@@ -135,7 +133,7 @@ public:
     //初始化
     void initMemory()
     {
-        //xPrint("initMemory:_nSzie=%d,_nBlockSzie=%d\n", _nSize, _nBlock);
+        xPrint("initMemory:_nSzie=%d,_nBlockSzie=%d\n", _nSize, _nBlock);
         //断言
         assert(nullptr == _pBuf);
         if (_pBuf)
@@ -168,7 +166,7 @@ public:
     }
 };
 
-//方便初始化
+//方便初始化 
 template <size_t nSize, size_t nBlock>
 class MemoryAlloctor : public MemoryAlloc
 {
@@ -207,6 +205,7 @@ private:
     MemoryAlloctor<512, 100000> _mem512;
     MemoryAlloctor<1024, 100000> _mem1024;*/
     MemoryAlloc *_szAlloc[MAX_MEMORY_SIZE + 1];
+    std::mutex _mutex;
 
 private:
     //初始化内存池映射数组
@@ -222,12 +221,13 @@ public:
     //申请内存
     void *allocMem(size_t nSize)
     {
-        if (nSize <= MAX_MEMORY_SIZE)
+        if (nSize >0&&nSize <= MAX_MEMORY_SIZE)
         {
             return _szAlloc[nSize]->allocMemory(nSize);
         }
         else
         {
+            std::lock_guard<std::mutex> lg(_mutex);
             MemoryBlock *pReturn = (MemoryBlock *)malloc(nSize + sizeof(MemoryBlock));
             if (nullptr != pReturn)
             {

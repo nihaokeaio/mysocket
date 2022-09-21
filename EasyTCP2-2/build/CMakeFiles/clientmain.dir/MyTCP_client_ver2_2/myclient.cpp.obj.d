@@ -1,6 +1,6 @@
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/mainclient.cpp \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/myclient.h \
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj: \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.cpp \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -192,7 +192,7 @@ CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: \
  C:/msys64/mingw64/include/ws2def.h \
  C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
  C:/msys64/mingw64/include/qos.h \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/CELLTimestamp.h \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/CELLTimestamp.h \
  C:/msys64/mingw64/include/c++/12.1.0/chrono \
  C:/msys64/mingw64/include/c++/12.1.0/bits/chrono.h \
  C:/msys64/mingw64/include/c++/12.1.0/ratio \
@@ -295,8 +295,4 @@ CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.tcc \
  C:/msys64/mingw64/include/c++/12.1.0/bits/std_mutex.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_lock.h \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/Messagehead.hpp \
- C:/msys64/mingw64/include/c++/12.1.0/thread \
- C:/msys64/mingw64/include/c++/12.1.0/bits/std_thread.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/this_thread_sleep.h
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/Messagehead.hpp

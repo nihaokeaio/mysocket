@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1
+CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build
+CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,125 +142,149 @@ servermain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/build
 .PHONY : servermain/fast
 
-MyTCP_client_ver2_1/mainclient.obj: MyTCP_client_ver2_1/mainclient.cpp.obj
-.PHONY : MyTCP_client_ver2_1/mainclient.obj
+MyTCP_client_ver2_2/mainclient.obj: MyTCP_client_ver2_2/mainclient.cpp.obj
+.PHONY : MyTCP_client_ver2_2/mainclient.obj
 
 # target to build an object file
-MyTCP_client_ver2_1/mainclient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj
-.PHONY : MyTCP_client_ver2_1/mainclient.cpp.obj
+MyTCP_client_ver2_2/mainclient.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj
+.PHONY : MyTCP_client_ver2_2/mainclient.cpp.obj
 
-MyTCP_client_ver2_1/mainclient.i: MyTCP_client_ver2_1/mainclient.cpp.i
-.PHONY : MyTCP_client_ver2_1/mainclient.i
+MyTCP_client_ver2_2/mainclient.i: MyTCP_client_ver2_2/mainclient.cpp.i
+.PHONY : MyTCP_client_ver2_2/mainclient.i
 
 # target to preprocess a source file
-MyTCP_client_ver2_1/mainclient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.i
-.PHONY : MyTCP_client_ver2_1/mainclient.cpp.i
+MyTCP_client_ver2_2/mainclient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.i
+.PHONY : MyTCP_client_ver2_2/mainclient.cpp.i
 
-MyTCP_client_ver2_1/mainclient.s: MyTCP_client_ver2_1/mainclient.cpp.s
-.PHONY : MyTCP_client_ver2_1/mainclient.s
+MyTCP_client_ver2_2/mainclient.s: MyTCP_client_ver2_2/mainclient.cpp.s
+.PHONY : MyTCP_client_ver2_2/mainclient.s
 
 # target to generate assembly for a file
-MyTCP_client_ver2_1/mainclient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.s
-.PHONY : MyTCP_client_ver2_1/mainclient.cpp.s
+MyTCP_client_ver2_2/mainclient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.s
+.PHONY : MyTCP_client_ver2_2/mainclient.cpp.s
 
-MyTCP_client_ver2_1/myclient.obj: MyTCP_client_ver2_1/myclient.cpp.obj
-.PHONY : MyTCP_client_ver2_1/myclient.obj
+MyTCP_client_ver2_2/myclient.obj: MyTCP_client_ver2_2/myclient.cpp.obj
+.PHONY : MyTCP_client_ver2_2/myclient.obj
 
 # target to build an object file
-MyTCP_client_ver2_1/myclient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj
-.PHONY : MyTCP_client_ver2_1/myclient.cpp.obj
+MyTCP_client_ver2_2/myclient.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj
+.PHONY : MyTCP_client_ver2_2/myclient.cpp.obj
 
-MyTCP_client_ver2_1/myclient.i: MyTCP_client_ver2_1/myclient.cpp.i
-.PHONY : MyTCP_client_ver2_1/myclient.i
+MyTCP_client_ver2_2/myclient.i: MyTCP_client_ver2_2/myclient.cpp.i
+.PHONY : MyTCP_client_ver2_2/myclient.i
 
 # target to preprocess a source file
-MyTCP_client_ver2_1/myclient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.i
-.PHONY : MyTCP_client_ver2_1/myclient.cpp.i
+MyTCP_client_ver2_2/myclient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.i
+.PHONY : MyTCP_client_ver2_2/myclient.cpp.i
 
-MyTCP_client_ver2_1/myclient.s: MyTCP_client_ver2_1/myclient.cpp.s
-.PHONY : MyTCP_client_ver2_1/myclient.s
+MyTCP_client_ver2_2/myclient.s: MyTCP_client_ver2_2/myclient.cpp.s
+.PHONY : MyTCP_client_ver2_2/myclient.s
 
 # target to generate assembly for a file
-MyTCP_client_ver2_1/myclient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.s
-.PHONY : MyTCP_client_ver2_1/myclient.cpp.s
+MyTCP_client_ver2_2/myclient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.s
+.PHONY : MyTCP_client_ver2_2/myclient.cpp.s
 
-MyTCP_server_ver2_1/cellserver.obj: MyTCP_server_ver2_1/cellserver.cpp.obj
-.PHONY : MyTCP_server_ver2_1/cellserver.obj
+MyTCP_server_ver2_2/Alloc.obj: MyTCP_server_ver2_2/Alloc.cpp.obj
+.PHONY : MyTCP_server_ver2_2/Alloc.obj
 
 # target to build an object file
-MyTCP_server_ver2_1/cellserver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj
-.PHONY : MyTCP_server_ver2_1/cellserver.cpp.obj
+MyTCP_server_ver2_2/Alloc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj
+.PHONY : MyTCP_server_ver2_2/Alloc.cpp.obj
 
-MyTCP_server_ver2_1/cellserver.i: MyTCP_server_ver2_1/cellserver.cpp.i
-.PHONY : MyTCP_server_ver2_1/cellserver.i
+MyTCP_server_ver2_2/Alloc.i: MyTCP_server_ver2_2/Alloc.cpp.i
+.PHONY : MyTCP_server_ver2_2/Alloc.i
 
 # target to preprocess a source file
-MyTCP_server_ver2_1/cellserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.i
-.PHONY : MyTCP_server_ver2_1/cellserver.cpp.i
+MyTCP_server_ver2_2/Alloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.i
+.PHONY : MyTCP_server_ver2_2/Alloc.cpp.i
 
-MyTCP_server_ver2_1/cellserver.s: MyTCP_server_ver2_1/cellserver.cpp.s
-.PHONY : MyTCP_server_ver2_1/cellserver.s
+MyTCP_server_ver2_2/Alloc.s: MyTCP_server_ver2_2/Alloc.cpp.s
+.PHONY : MyTCP_server_ver2_2/Alloc.s
 
 # target to generate assembly for a file
-MyTCP_server_ver2_1/cellserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.s
-.PHONY : MyTCP_server_ver2_1/cellserver.cpp.s
+MyTCP_server_ver2_2/Alloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.s
+.PHONY : MyTCP_server_ver2_2/Alloc.cpp.s
 
-MyTCP_server_ver2_1/mainserver.obj: MyTCP_server_ver2_1/mainserver.cpp.obj
-.PHONY : MyTCP_server_ver2_1/mainserver.obj
+MyTCP_server_ver2_2/cellserver.obj: MyTCP_server_ver2_2/cellserver.cpp.obj
+.PHONY : MyTCP_server_ver2_2/cellserver.obj
 
 # target to build an object file
-MyTCP_server_ver2_1/mainserver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj
-.PHONY : MyTCP_server_ver2_1/mainserver.cpp.obj
+MyTCP_server_ver2_2/cellserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj
+.PHONY : MyTCP_server_ver2_2/cellserver.cpp.obj
 
-MyTCP_server_ver2_1/mainserver.i: MyTCP_server_ver2_1/mainserver.cpp.i
-.PHONY : MyTCP_server_ver2_1/mainserver.i
+MyTCP_server_ver2_2/cellserver.i: MyTCP_server_ver2_2/cellserver.cpp.i
+.PHONY : MyTCP_server_ver2_2/cellserver.i
 
 # target to preprocess a source file
-MyTCP_server_ver2_1/mainserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.i
-.PHONY : MyTCP_server_ver2_1/mainserver.cpp.i
+MyTCP_server_ver2_2/cellserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.i
+.PHONY : MyTCP_server_ver2_2/cellserver.cpp.i
 
-MyTCP_server_ver2_1/mainserver.s: MyTCP_server_ver2_1/mainserver.cpp.s
-.PHONY : MyTCP_server_ver2_1/mainserver.s
+MyTCP_server_ver2_2/cellserver.s: MyTCP_server_ver2_2/cellserver.cpp.s
+.PHONY : MyTCP_server_ver2_2/cellserver.s
 
 # target to generate assembly for a file
-MyTCP_server_ver2_1/mainserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.s
-.PHONY : MyTCP_server_ver2_1/mainserver.cpp.s
+MyTCP_server_ver2_2/cellserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.s
+.PHONY : MyTCP_server_ver2_2/cellserver.cpp.s
 
-MyTCP_server_ver2_1/myserver.obj: MyTCP_server_ver2_1/myserver.cpp.obj
-.PHONY : MyTCP_server_ver2_1/myserver.obj
+MyTCP_server_ver2_2/mainserver.obj: MyTCP_server_ver2_2/mainserver.cpp.obj
+.PHONY : MyTCP_server_ver2_2/mainserver.obj
 
 # target to build an object file
-MyTCP_server_ver2_1/myserver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj
-.PHONY : MyTCP_server_ver2_1/myserver.cpp.obj
+MyTCP_server_ver2_2/mainserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj
+.PHONY : MyTCP_server_ver2_2/mainserver.cpp.obj
 
-MyTCP_server_ver2_1/myserver.i: MyTCP_server_ver2_1/myserver.cpp.i
-.PHONY : MyTCP_server_ver2_1/myserver.i
+MyTCP_server_ver2_2/mainserver.i: MyTCP_server_ver2_2/mainserver.cpp.i
+.PHONY : MyTCP_server_ver2_2/mainserver.i
 
 # target to preprocess a source file
-MyTCP_server_ver2_1/myserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.i
-.PHONY : MyTCP_server_ver2_1/myserver.cpp.i
+MyTCP_server_ver2_2/mainserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.i
+.PHONY : MyTCP_server_ver2_2/mainserver.cpp.i
 
-MyTCP_server_ver2_1/myserver.s: MyTCP_server_ver2_1/myserver.cpp.s
-.PHONY : MyTCP_server_ver2_1/myserver.s
+MyTCP_server_ver2_2/mainserver.s: MyTCP_server_ver2_2/mainserver.cpp.s
+.PHONY : MyTCP_server_ver2_2/mainserver.s
 
 # target to generate assembly for a file
-MyTCP_server_ver2_1/myserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.s
-.PHONY : MyTCP_server_ver2_1/myserver.cpp.s
+MyTCP_server_ver2_2/mainserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.s
+.PHONY : MyTCP_server_ver2_2/mainserver.cpp.s
+
+MyTCP_server_ver2_2/myserver.obj: MyTCP_server_ver2_2/myserver.cpp.obj
+.PHONY : MyTCP_server_ver2_2/myserver.obj
+
+# target to build an object file
+MyTCP_server_ver2_2/myserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj
+.PHONY : MyTCP_server_ver2_2/myserver.cpp.obj
+
+MyTCP_server_ver2_2/myserver.i: MyTCP_server_ver2_2/myserver.cpp.i
+.PHONY : MyTCP_server_ver2_2/myserver.i
+
+# target to preprocess a source file
+MyTCP_server_ver2_2/myserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.i
+.PHONY : MyTCP_server_ver2_2/myserver.cpp.i
+
+MyTCP_server_ver2_2/myserver.s: MyTCP_server_ver2_2/myserver.cpp.s
+.PHONY : MyTCP_server_ver2_2/myserver.s
+
+# target to generate assembly for a file
+MyTCP_server_ver2_2/myserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.s
+.PHONY : MyTCP_server_ver2_2/myserver.cpp.s
 
 # Help Target
 help:
@@ -272,21 +296,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clientmain"
 	@echo "... servermain"
-	@echo "... MyTCP_client_ver2_1/mainclient.obj"
-	@echo "... MyTCP_client_ver2_1/mainclient.i"
-	@echo "... MyTCP_client_ver2_1/mainclient.s"
-	@echo "... MyTCP_client_ver2_1/myclient.obj"
-	@echo "... MyTCP_client_ver2_1/myclient.i"
-	@echo "... MyTCP_client_ver2_1/myclient.s"
-	@echo "... MyTCP_server_ver2_1/cellserver.obj"
-	@echo "... MyTCP_server_ver2_1/cellserver.i"
-	@echo "... MyTCP_server_ver2_1/cellserver.s"
-	@echo "... MyTCP_server_ver2_1/mainserver.obj"
-	@echo "... MyTCP_server_ver2_1/mainserver.i"
-	@echo "... MyTCP_server_ver2_1/mainserver.s"
-	@echo "... MyTCP_server_ver2_1/myserver.obj"
-	@echo "... MyTCP_server_ver2_1/myserver.i"
-	@echo "... MyTCP_server_ver2_1/myserver.s"
+	@echo "... MyTCP_client_ver2_2/mainclient.obj"
+	@echo "... MyTCP_client_ver2_2/mainclient.i"
+	@echo "... MyTCP_client_ver2_2/mainclient.s"
+	@echo "... MyTCP_client_ver2_2/myclient.obj"
+	@echo "... MyTCP_client_ver2_2/myclient.i"
+	@echo "... MyTCP_client_ver2_2/myclient.s"
+	@echo "... MyTCP_server_ver2_2/Alloc.obj"
+	@echo "... MyTCP_server_ver2_2/Alloc.i"
+	@echo "... MyTCP_server_ver2_2/Alloc.s"
+	@echo "... MyTCP_server_ver2_2/cellserver.obj"
+	@echo "... MyTCP_server_ver2_2/cellserver.i"
+	@echo "... MyTCP_server_ver2_2/cellserver.s"
+	@echo "... MyTCP_server_ver2_2/mainserver.obj"
+	@echo "... MyTCP_server_ver2_2/mainserver.i"
+	@echo "... MyTCP_server_ver2_2/mainserver.s"
+	@echo "... MyTCP_server_ver2_2/myserver.obj"
+	@echo "... MyTCP_server_ver2_2/myserver.i"
+	@echo "... MyTCP_server_ver2_2/myserver.s"
 .PHONY : help
 
 

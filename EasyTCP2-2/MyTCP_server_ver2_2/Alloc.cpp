@@ -7,7 +7,7 @@ void *operator new(size_t size)
     return MemoryMgr::Instance().allocMem(size);
 }
 
-void operator delete(void *p)
+void operator delete(void *p) noexcept
 {
     MemoryMgr::Instance().freeMem(p);
 }
@@ -17,7 +17,7 @@ void *operator new[](size_t size)
     return MemoryMgr::Instance().allocMem(size);
 }
 
-void operator delete[](void *p)
+void operator delete[](void *p) noexcept
 {
     MemoryMgr::Instance().freeMem(p);
 }

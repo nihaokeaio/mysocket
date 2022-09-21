@@ -1,4 +1,4 @@
-C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles/clientmain.dir
-C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles/servermain.dir
-C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles/edit_cache.dir
-C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles/rebuild_cache.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles/clientmain.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles/servermain.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles/edit_cache.dir
+C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles/rebuild_cache.dir

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/mainclient.cpp" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj" "gcc" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj.d"
-  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/myclient.cpp" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj" "gcc" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj.d"
+  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/mainclient.cpp" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj" "gcc" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj.d"
+  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.cpp" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj" "gcc" "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj.d"
   )
 
 # Targets to which this target links.

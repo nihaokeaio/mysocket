@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj"
-  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj.d"
-  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj"
-  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj.d"
+  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj"
+  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj.d"
+  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj"
+  "CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj.d"
   "clientmain.exe"
   "clientmain.exe.manifest"
   "clientmain.pdb"

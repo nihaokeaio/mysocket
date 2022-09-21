@@ -54,10 +54,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1
+CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build
+CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/servermain.dir/clean
 CMakeFiles/clientmain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientmain.dir/build.make CMakeFiles/clientmain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=1,2,3 "Built target clientmain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=1,2,3 "Built target clientmain"
 .PHONY : CMakeFiles/clientmain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clientmain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clientmain.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles 0
 .PHONY : CMakeFiles/clientmain.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/clientmain.dir/clean:
 CMakeFiles/servermain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servermain.dir/build.make CMakeFiles/servermain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=4,5,6,7 "Built target servermain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=4,5,6,7,8 "Built target servermain"
 .PHONY : CMakeFiles/servermain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/servermain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/servermain.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles 0
 .PHONY : CMakeFiles/servermain.dir/rule
 
 # Convenience name for target.

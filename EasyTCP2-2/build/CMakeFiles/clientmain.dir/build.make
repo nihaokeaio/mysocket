@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1
+CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build
+CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clientmain.dir/depend.make
@@ -69,50 +69,50 @@ include CMakeFiles/clientmain.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clientmain.dir/flags.make
 
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: CMakeFiles/clientmain.dir/flags.make
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: CMakeFiles/clientmain.dir/includes_CXX.rsp
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/mainclient.cpp
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj: CMakeFiles/clientmain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj -MF CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj.d -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/mainclient.cpp
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj: CMakeFiles/clientmain.dir/flags.make
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj: CMakeFiles/clientmain.dir/includes_CXX.rsp
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/mainclient.cpp
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj: CMakeFiles/clientmain.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj -MF CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj.d -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/mainclient.cpp
 
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/mainclient.cpp > CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.i
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/mainclient.cpp > CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.i
 
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/mainclient.cpp -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.s
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/mainclient.cpp -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.s
 
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj: CMakeFiles/clientmain.dir/flags.make
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj: CMakeFiles/clientmain.dir/includes_CXX.rsp
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/myclient.cpp
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj: CMakeFiles/clientmain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj -MF CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj.d -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/myclient.cpp
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj: CMakeFiles/clientmain.dir/flags.make
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj: CMakeFiles/clientmain.dir/includes_CXX.rsp
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.cpp
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj: CMakeFiles/clientmain.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj -MF CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj.d -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.cpp
 
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/myclient.cpp > CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.i
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.cpp > CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.i
 
-CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_client_ver2_1/myclient.cpp -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.s
+CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_client_ver2_2/myclient.cpp -o CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.s
 
 # Object files for target clientmain
 clientmain_OBJECTS = \
-"CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj" \
-"CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj"
+"CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj" \
+"CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj"
 
 # External object files for target clientmain
 clientmain_EXTERNAL_OBJECTS =
 
-clientmain.exe: CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/mainclient.cpp.obj
-clientmain.exe: CMakeFiles/clientmain.dir/MyTCP_client_ver2_1/myclient.cpp.obj
+clientmain.exe: CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/mainclient.cpp.obj
+clientmain.exe: CMakeFiles/clientmain.dir/MyTCP_client_ver2_2/myclient.cpp.obj
 clientmain.exe: CMakeFiles/clientmain.dir/build.make
 clientmain.exe: CMakeFiles/clientmain.dir/linklibs.rsp
 clientmain.exe: CMakeFiles/clientmain.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable clientmain.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable clientmain.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/clientmain.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/clientmain.dir/objects.a @CMakeFiles/clientmain.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/clientmain.dir/objects.a -Wl,--no-whole-archive -o clientmain.exe -Wl,--out-implib,libclientmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/clientmain.dir/linklibs.rsp
@@ -126,6 +126,6 @@ CMakeFiles/clientmain.dir/clean:
 .PHONY : CMakeFiles/clientmain.dir/clean
 
 CMakeFiles/clientmain.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles/clientmain.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles/clientmain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clientmain.dir/depend
 

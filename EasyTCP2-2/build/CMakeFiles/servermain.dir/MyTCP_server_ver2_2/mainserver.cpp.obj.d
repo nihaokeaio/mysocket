@@ -1,6 +1,6 @@
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/cellserver.cpp \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.h \
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj: \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/mainserver.cpp \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/myserver.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -288,19 +288,6 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_set.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_multiset.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/erase_if.h \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/CELLTimestamp.h \
- C:/msys64/mingw64/include/c++/12.1.0/chrono \
- C:/msys64/mingw64/include/c++/12.1.0/bits/chrono.h \
- C:/msys64/mingw64/include/c++/12.1.0/ratio \
- C:/msys64/mingw64/include/c++/12.1.0/cstdint \
- C:/msys64/mingw64/include/c++/12.1.0/limits \
- C:/msys64/mingw64/include/c++/12.1.0/ctime \
- C:/msys64/mingw64/include/c++/12.1.0/bits/parse_numbers.h \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/Messagehead.hpp \
- C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/CellTask.hpp \
- C:/msys64/mingw64/include/c++/12.1.0/list \
- C:/msys64/mingw64/include/c++/12.1.0/bits/stl_list.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/list.tcc \
  C:/msys64/mingw64/include/c++/12.1.0/mutex \
  C:/msys64/mingw64/include/c++/12.1.0/system_error \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/error_constants.h \
@@ -308,6 +295,7 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.1.0/stdexcept \
  C:/msys64/mingw64/include/c++/12.1.0/string \
  C:/msys64/mingw64/include/c++/12.1.0/bits/char_traits.h \
+ C:/msys64/mingw64/include/c++/12.1.0/cstdint \
  C:/msys64/mingw64/include/c++/12.1.0/bits/localefwd.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/msys64/mingw64/include/c++/12.1.0/clocale \
@@ -320,9 +308,27 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.1.0/cstdio \
  C:/msys64/mingw64/include/c++/12.1.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.tcc \
+ C:/msys64/mingw64/include/c++/12.1.0/bits/chrono.h \
+ C:/msys64/mingw64/include/c++/12.1.0/ratio \
+ C:/msys64/mingw64/include/c++/12.1.0/limits \
+ C:/msys64/mingw64/include/c++/12.1.0/ctime \
+ C:/msys64/mingw64/include/c++/12.1.0/bits/parse_numbers.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/std_mutex.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_lock.h \
  C:/msys64/mingw64/include/c++/12.1.0/thread \
  C:/msys64/mingw64/include/c++/12.1.0/bits/std_thread.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/this_thread_sleep.h \
- C:/msys64/mingw64/include/c++/12.1.0/atomic
+ C:/msys64/mingw64/include/c++/12.1.0/atomic \
+ C:/msys64/mingw64/include/c++/12.1.0/list \
+ C:/msys64/mingw64/include/c++/12.1.0/bits/stl_list.h \
+ C:/msys64/mingw64/include/c++/12.1.0/bits/list.tcc \
+ C:/msys64/mingw64/include/c++/12.1.0/map \
+ C:/msys64/mingw64/include/c++/12.1.0/bits/stl_map.h \
+ C:/msys64/mingw64/include/c++/12.1.0/bits/stl_multimap.h \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/MemoryManage.hpp \
+ C:/msys64/mingw64/include/assert.h \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/CELLTimestamp.h \
+ C:/msys64/mingw64/include/c++/12.1.0/chrono \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Messagehead.hpp \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/CellTask.hpp \
+ C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Alloc.h

@@ -211,12 +211,7 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/ws2def.h \
   C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
   C:/msys64/mingw64/include/qos.h \
-  C:/msys64/mingw64/include/stdio.h \
-  C:/msys64/mingw64/include/corecrt_stdio_config.h \
-  C:/msys64/mingw64/include/_mingw_off_t.h \
-  C:/msys64/mingw64/include/swprintf.inl \
-  C:/msys64/mingw64/include/sec_api/stdio_s.h \
-  C:/msys64/mingw64/include/c++/12.1.0/vector \
+  C:/msys64/mingw64/include/c++/12.1.0/memory \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/functexcept.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/exception_defines.h \
@@ -245,20 +240,71 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/12.1.0/ext/alloc_traits.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/alloc_traits.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_vector.h \
-  C:/msys64/mingw64/include/c++/12.1.0/initializer_list \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_bvector.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tempbuf.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_raw_storage_iter.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/align.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bit \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h \
+  C:/msys64/mingw64/include/stdint.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/tuple \
   C:/msys64/mingw64/include/c++/12.1.0/bits/invoke.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_function.h \
   C:/msys64/mingw64/include/c++/12.1.0/backward/binders.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h \
+  C:/msys64/mingw64/include/c++/12.1.0/cwchar \
+  C:/msys64/mingw64/include/wchar.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/_mingw_stat64.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_base.h \
+  C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/aligned_buffer.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/mingw64/include/pthread.h \
+  C:/msys64/mingw64/include/sys/types.h \
+  C:/msys64/mingw64/include/process.h \
+  C:/msys64/mingw64/include/corecrt_startup.h \
+  C:/msys64/mingw64/include/signal.h \
+  C:/msys64/mingw64/include/pthread_signal.h \
+  C:/msys64/mingw64/include/time.h \
+  C:/msys64/mingw64/include/sys/timeb.h \
+  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/mingw64/include/pthread_time.h \
+  C:/msys64/mingw64/include/pthread_compat.h \
+  C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/concurrence.h \
+  C:/msys64/mingw64/include/c++/12.1.0/exception \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_atomic.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h \
+  C:/msys64/mingw64/include/c++/12.1.0/backward/auto_ptr.h \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/c++/12.1.0/vector \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_vector.h \
+  C:/msys64/mingw64/include/c++/12.1.0/initializer_list \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/range_access.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/vector.tcc \
   C:/msys64/mingw64/include/c++/12.1.0/set \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tree.h \
-  C:/msys64/mingw64/include/c++/12.1.0/ext/aligned_buffer.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_set.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_multiset.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/erase_if.h \
@@ -267,39 +313,18 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/chrono.h \
   C:/msys64/mingw64/include/c++/12.1.0/ratio \
   C:/msys64/mingw64/include/c++/12.1.0/cstdint \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h \
-  C:/msys64/mingw64/include/stdint.h \
   C:/msys64/mingw64/include/c++/12.1.0/limits \
   C:/msys64/mingw64/include/c++/12.1.0/ctime \
-  C:/msys64/mingw64/include/time.h \
-  C:/msys64/mingw64/include/sys/timeb.h \
-  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/mingw64/include/pthread_time.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/parse_numbers.h \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/Messagehead.hpp \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/CellTask.hpp \
   C:/msys64/mingw64/include/c++/12.1.0/list \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_list.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/list.tcc \
   C:/msys64/mingw64/include/c++/12.1.0/mutex \
-  C:/msys64/mingw64/include/c++/12.1.0/tuple \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h \
-  C:/msys64/mingw64/include/c++/12.1.0/exception \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
-  C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
   C:/msys64/mingw64/include/c++/12.1.0/system_error \
   C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/msys64/mingw64/include/c++/12.1.0/cerrno \
-  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h \
-  C:/msys64/mingw64/include/c++/12.1.0/cwchar \
-  C:/msys64/mingw64/include/wchar.h \
-  C:/msys64/mingw64/include/_mingw_stat64.h \
-  C:/msys64/mingw64/include/sec_api/wchar_s.h \
   C:/msys64/mingw64/include/c++/12.1.0/stdexcept \
   C:/msys64/mingw64/include/c++/12.1.0/string \
   C:/msys64/mingw64/include/c++/12.1.0/bits/char_traits.h \
@@ -311,18 +336,6 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/ostream_insert.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_forced.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.h \
-  C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/msys64/mingw64/include/pthread.h \
-  C:/msys64/mingw64/include/sys/types.h \
-  C:/msys64/mingw64/include/process.h \
-  C:/msys64/mingw64/include/corecrt_startup.h \
-  C:/msys64/mingw64/include/signal.h \
-  C:/msys64/mingw64/include/pthread_signal.h \
-  C:/msys64/mingw64/include/pthread_compat.h \
-  C:/msys64/mingw64/include/pthread_unistd.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/mingw64/include/c++/12.1.0/ext/string_conversions.h \
   C:/msys64/mingw64/include/c++/12.1.0/cstdio \
   C:/msys64/mingw64/include/c++/12.1.0/bits/charconv.h \
@@ -331,11 +344,8 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/unique_lock.h \
   C:/msys64/mingw64/include/c++/12.1.0/thread \
   C:/msys64/mingw64/include/c++/12.1.0/bits/std_thread.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/this_thread_sleep.h \
-  C:/msys64/mingw64/include/c++/12.1.0/atomic \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h
+  C:/msys64/mingw64/include/c++/12.1.0/atomic
 
 CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.h \
@@ -547,12 +557,7 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/ws2def.h \
   C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
   C:/msys64/mingw64/include/qos.h \
-  C:/msys64/mingw64/include/stdio.h \
-  C:/msys64/mingw64/include/corecrt_stdio_config.h \
-  C:/msys64/mingw64/include/_mingw_off_t.h \
-  C:/msys64/mingw64/include/swprintf.inl \
-  C:/msys64/mingw64/include/sec_api/stdio_s.h \
-  C:/msys64/mingw64/include/c++/12.1.0/vector \
+  C:/msys64/mingw64/include/c++/12.1.0/memory \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/functexcept.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/exception_defines.h \
@@ -581,20 +586,71 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/12.1.0/ext/alloc_traits.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/alloc_traits.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_vector.h \
-  C:/msys64/mingw64/include/c++/12.1.0/initializer_list \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_bvector.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tempbuf.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_raw_storage_iter.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/align.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bit \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h \
+  C:/msys64/mingw64/include/stdint.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/tuple \
   C:/msys64/mingw64/include/c++/12.1.0/bits/invoke.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_function.h \
   C:/msys64/mingw64/include/c++/12.1.0/backward/binders.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h \
+  C:/msys64/mingw64/include/c++/12.1.0/cwchar \
+  C:/msys64/mingw64/include/wchar.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/_mingw_stat64.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_base.h \
+  C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/aligned_buffer.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/mingw64/include/pthread.h \
+  C:/msys64/mingw64/include/sys/types.h \
+  C:/msys64/mingw64/include/process.h \
+  C:/msys64/mingw64/include/corecrt_startup.h \
+  C:/msys64/mingw64/include/signal.h \
+  C:/msys64/mingw64/include/pthread_signal.h \
+  C:/msys64/mingw64/include/time.h \
+  C:/msys64/mingw64/include/sys/timeb.h \
+  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/mingw64/include/pthread_time.h \
+  C:/msys64/mingw64/include/pthread_compat.h \
+  C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/concurrence.h \
+  C:/msys64/mingw64/include/c++/12.1.0/exception \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_atomic.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h \
+  C:/msys64/mingw64/include/c++/12.1.0/backward/auto_ptr.h \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/c++/12.1.0/vector \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_vector.h \
+  C:/msys64/mingw64/include/c++/12.1.0/initializer_list \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/range_access.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/vector.tcc \
   C:/msys64/mingw64/include/c++/12.1.0/set \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tree.h \
-  C:/msys64/mingw64/include/c++/12.1.0/ext/aligned_buffer.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_set.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_multiset.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/erase_if.h \
@@ -603,39 +659,18 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/chrono.h \
   C:/msys64/mingw64/include/c++/12.1.0/ratio \
   C:/msys64/mingw64/include/c++/12.1.0/cstdint \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h \
-  C:/msys64/mingw64/include/stdint.h \
   C:/msys64/mingw64/include/c++/12.1.0/limits \
   C:/msys64/mingw64/include/c++/12.1.0/ctime \
-  C:/msys64/mingw64/include/time.h \
-  C:/msys64/mingw64/include/sys/timeb.h \
-  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/mingw64/include/pthread_time.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/parse_numbers.h \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/Messagehead.hpp \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/CellTask.hpp \
   C:/msys64/mingw64/include/c++/12.1.0/list \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_list.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/list.tcc \
   C:/msys64/mingw64/include/c++/12.1.0/mutex \
-  C:/msys64/mingw64/include/c++/12.1.0/tuple \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h \
-  C:/msys64/mingw64/include/c++/12.1.0/exception \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
-  C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
   C:/msys64/mingw64/include/c++/12.1.0/system_error \
   C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/msys64/mingw64/include/c++/12.1.0/cerrno \
-  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h \
-  C:/msys64/mingw64/include/c++/12.1.0/cwchar \
-  C:/msys64/mingw64/include/wchar.h \
-  C:/msys64/mingw64/include/_mingw_stat64.h \
-  C:/msys64/mingw64/include/sec_api/wchar_s.h \
   C:/msys64/mingw64/include/c++/12.1.0/stdexcept \
   C:/msys64/mingw64/include/c++/12.1.0/string \
   C:/msys64/mingw64/include/c++/12.1.0/bits/char_traits.h \
@@ -647,18 +682,6 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/ostream_insert.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_forced.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.h \
-  C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/msys64/mingw64/include/pthread.h \
-  C:/msys64/mingw64/include/sys/types.h \
-  C:/msys64/mingw64/include/process.h \
-  C:/msys64/mingw64/include/corecrt_startup.h \
-  C:/msys64/mingw64/include/signal.h \
-  C:/msys64/mingw64/include/pthread_signal.h \
-  C:/msys64/mingw64/include/pthread_compat.h \
-  C:/msys64/mingw64/include/pthread_unistd.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/mingw64/include/c++/12.1.0/ext/string_conversions.h \
   C:/msys64/mingw64/include/c++/12.1.0/cstdio \
   C:/msys64/mingw64/include/c++/12.1.0/bits/charconv.h \
@@ -667,11 +690,8 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N
   C:/msys64/mingw64/include/c++/12.1.0/bits/unique_lock.h \
   C:/msys64/mingw64/include/c++/12.1.0/thread \
   C:/msys64/mingw64/include/c++/12.1.0/bits/std_thread.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/this_thread_sleep.h \
-  C:/msys64/mingw64/include/c++/12.1.0/atomic \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h
+  C:/msys64/mingw64/include/c++/12.1.0/atomic
 
 CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.cpp \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.h \
@@ -883,12 +903,7 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/D
   C:/msys64/mingw64/include/ws2def.h \
   C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
   C:/msys64/mingw64/include/qos.h \
-  C:/msys64/mingw64/include/stdio.h \
-  C:/msys64/mingw64/include/corecrt_stdio_config.h \
-  C:/msys64/mingw64/include/_mingw_off_t.h \
-  C:/msys64/mingw64/include/swprintf.inl \
-  C:/msys64/mingw64/include/sec_api/stdio_s.h \
-  C:/msys64/mingw64/include/c++/12.1.0/vector \
+  C:/msys64/mingw64/include/c++/12.1.0/memory \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/functexcept.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/exception_defines.h \
@@ -917,20 +932,71 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/D
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/12.1.0/ext/alloc_traits.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/alloc_traits.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_vector.h \
-  C:/msys64/mingw64/include/c++/12.1.0/initializer_list \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_bvector.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tempbuf.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_raw_storage_iter.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/align.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bit \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h \
+  C:/msys64/mingw64/include/stdint.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/tuple \
   C:/msys64/mingw64/include/c++/12.1.0/bits/invoke.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_function.h \
   C:/msys64/mingw64/include/c++/12.1.0/backward/binders.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h \
+  C:/msys64/mingw64/include/c++/12.1.0/cwchar \
+  C:/msys64/mingw64/include/wchar.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/_mingw_stat64.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_base.h \
+  C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/aligned_buffer.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/mingw64/include/pthread.h \
+  C:/msys64/mingw64/include/sys/types.h \
+  C:/msys64/mingw64/include/process.h \
+  C:/msys64/mingw64/include/corecrt_startup.h \
+  C:/msys64/mingw64/include/signal.h \
+  C:/msys64/mingw64/include/pthread_signal.h \
+  C:/msys64/mingw64/include/time.h \
+  C:/msys64/mingw64/include/sys/timeb.h \
+  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/mingw64/include/pthread_time.h \
+  C:/msys64/mingw64/include/pthread_compat.h \
+  C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/mingw64/include/c++/12.1.0/ext/concurrence.h \
+  C:/msys64/mingw64/include/c++/12.1.0/exception \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_atomic.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h \
+  C:/msys64/mingw64/include/c++/12.1.0/backward/auto_ptr.h \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/c++/12.1.0/vector \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_vector.h \
+  C:/msys64/mingw64/include/c++/12.1.0/initializer_list \
+  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/range_access.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/vector.tcc \
   C:/msys64/mingw64/include/c++/12.1.0/set \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tree.h \
-  C:/msys64/mingw64/include/c++/12.1.0/ext/aligned_buffer.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_set.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_multiset.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/erase_if.h \
@@ -939,39 +1005,18 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/D
   C:/msys64/mingw64/include/c++/12.1.0/bits/chrono.h \
   C:/msys64/mingw64/include/c++/12.1.0/ratio \
   C:/msys64/mingw64/include/c++/12.1.0/cstdint \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h \
-  C:/msys64/mingw64/include/stdint.h \
   C:/msys64/mingw64/include/c++/12.1.0/limits \
   C:/msys64/mingw64/include/c++/12.1.0/ctime \
-  C:/msys64/mingw64/include/time.h \
-  C:/msys64/mingw64/include/sys/timeb.h \
-  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/mingw64/include/pthread_time.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/parse_numbers.h \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/Messagehead.hpp \
   C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/CellTask.hpp \
   C:/msys64/mingw64/include/c++/12.1.0/list \
   C:/msys64/mingw64/include/c++/12.1.0/bits/stl_list.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/list.tcc \
   C:/msys64/mingw64/include/c++/12.1.0/mutex \
-  C:/msys64/mingw64/include/c++/12.1.0/tuple \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h \
-  C:/msys64/mingw64/include/c++/12.1.0/exception \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
-  C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
   C:/msys64/mingw64/include/c++/12.1.0/system_error \
   C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/msys64/mingw64/include/c++/12.1.0/cerrno \
-  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h \
-  C:/msys64/mingw64/include/c++/12.1.0/cwchar \
-  C:/msys64/mingw64/include/wchar.h \
-  C:/msys64/mingw64/include/_mingw_stat64.h \
-  C:/msys64/mingw64/include/sec_api/wchar_s.h \
   C:/msys64/mingw64/include/c++/12.1.0/stdexcept \
   C:/msys64/mingw64/include/c++/12.1.0/string \
   C:/msys64/mingw64/include/c++/12.1.0/bits/char_traits.h \
@@ -983,18 +1028,6 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/D
   C:/msys64/mingw64/include/c++/12.1.0/bits/ostream_insert.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_forced.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.h \
-  C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/msys64/mingw64/include/pthread.h \
-  C:/msys64/mingw64/include/sys/types.h \
-  C:/msys64/mingw64/include/process.h \
-  C:/msys64/mingw64/include/corecrt_startup.h \
-  C:/msys64/mingw64/include/signal.h \
-  C:/msys64/mingw64/include/pthread_signal.h \
-  C:/msys64/mingw64/include/pthread_compat.h \
-  C:/msys64/mingw64/include/pthread_unistd.h \
-  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/mingw64/include/c++/12.1.0/ext/string_conversions.h \
   C:/msys64/mingw64/include/c++/12.1.0/cstdio \
   C:/msys64/mingw64/include/c++/12.1.0/bits/charconv.h \
@@ -1003,11 +1036,8 @@ CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/D
   C:/msys64/mingw64/include/c++/12.1.0/bits/unique_lock.h \
   C:/msys64/mingw64/include/c++/12.1.0/thread \
   C:/msys64/mingw64/include/c++/12.1.0/bits/std_thread.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h \
   C:/msys64/mingw64/include/c++/12.1.0/bits/this_thread_sleep.h \
-  C:/msys64/mingw64/include/c++/12.1.0/atomic \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h \
-  C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h
+  C:/msys64/mingw64/include/c++/12.1.0/atomic
 
 
 C:/msys64/mingw64/include/pthread.h:
@@ -1055,6 +1085,8 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cldemoteintrin.h:
 C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h:
 
 C:/msys64/mingw64/include/specstrings.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/stl_raw_storage_iter.h:
 
 C:/msys64/mingw64/include/crtdefs.h:
 
@@ -1131,6 +1163,8 @@ C:/msys64/mingw64/include/string.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/sgxintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/x86intrin.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_base.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ia32intrin.h:
 
@@ -1306,6 +1340,8 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512vbmi2intrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512vbmi2vlintrin.h:
 
+C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tempbuf.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512vnniintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512vnnivlintrin.h:
@@ -1314,9 +1350,9 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512vpopcntdqvlint
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512bitalgintrin.h:
 
-C:/msys64/mingw64/include/sys/types.h:
-
 C:/msys64/mingw64/include/c++/12.1.0/list:
+
+C:/msys64/mingw64/include/sys/types.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512vp2intersectintrin.h:
 
@@ -1337,6 +1373,8 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/gfniintrin.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/vaesintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/vpclmulqdqintrin.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/align.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/avx512bf16vlintrin.h:
 
@@ -1440,6 +1478,8 @@ C:/msys64/mingw64/include/securitybaseapi.h:
 
 C:/msys64/mingw64/include/synchapi.h:
 
+C:/msys64/mingw64/include/c++/12.1.0/bit:
+
 C:/msys64/mingw64/include/threadpoolapiset.h:
 
 C:/msys64/mingw64/include/threadpoollegacyapiset.h:
@@ -1510,13 +1550,7 @@ C:/msys64/mingw64/include/c++/12.1.0/bits/stl_iterator_base_funcs.h:
 
 C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h:
 
-C:/msys64/mingw64/include/corecrt_stdio_config.h:
-
-C:/msys64/mingw64/include/_mingw_off_t.h:
-
-C:/msys64/mingw64/include/sec_api/stdio_s.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/vector:
+C:/msys64/mingw64/include/c++/12.1.0/memory:
 
 C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h:
 
@@ -1554,15 +1588,79 @@ C:/msys64/mingw64/include/c++/12.1.0/bits/stl_uninitialized.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/ext/alloc_traits.h:
 
-C:/msys64/mingw64/include/c++/12.1.0/initializer_list:
+C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h:
 
-C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h:
+C:/msys64/mingw64/include/stdint.h:
 
-C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h:
+C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/tuple:
 
 C:/msys64/mingw64/include/c++/12.1.0/bits/stl_function.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/backward/binders.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/cwchar:
+
+C:/msys64/mingw64/include/wchar.h:
+
+C:/msys64/mingw64/include/corecrt_stdio_config.h:
+
+C:/msys64/mingw64/include/_mingw_off_t.h:
+
+C:/msys64/mingw64/include/_mingw_stat64.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/refwrap.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/msys64/mingw64/include/process.h:
+
+C:/msys64/mingw64/include/corecrt_startup.h:
+
+C:/msys64/mingw64/include/time.h:
+
+C:/msys64/mingw64/include/sys/timeb.h:
+
+C:/msys64/mingw64/include/sec_api/sys/timeb_s.h:
+
+C:/msys64/mingw64/include/pthread_compat.h:
+
+C:/msys64/mingw64/include/pthread_unistd.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/ext/concurrence.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/shared_ptr_atomic.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/backward/auto_ptr.h:
+
+C:/msys64/mingw64/include/sec_api/stdio_s.h:
+
+C:/msys64/mingw64/include/c++/12.1.0/vector:
+
+C:/msys64/mingw64/include/c++/12.1.0/initializer_list:
 
 C:/msys64/mingw64/include/c++/12.1.0/bits/range_access.h:
 
@@ -1578,49 +1676,19 @@ C:/msys64/mingw64/include/c++/12.1.0/chrono:
 
 C:/msys64/mingw64/include/c++/12.1.0/ratio:
 
-C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h:
-
-C:/msys64/mingw64/include/stdint.h:
-
 C:/msys64/mingw64/include/c++/12.1.0/limits:
 
 C:/msys64/mingw64/include/c++/12.1.0/ctime:
-
-C:/msys64/mingw64/include/time.h:
-
-C:/msys64/mingw64/include/sys/timeb.h:
-
-C:/msys64/mingw64/include/sec_api/sys/timeb_s.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/bits/parse_numbers.h:
 
 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/CellTask.hpp:
 
-C:/msys64/mingw64/include/c++/12.1.0/bits/allocated_ptr.h:
-
 C:/msys64/mingw64/include/c++/12.1.0/mutex:
-
-C:/msys64/mingw64/include/c++/12.1.0/tuple:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/uses_allocator.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/cerrno:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/stringfwd.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/postypes.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/cwchar:
-
-C:/msys64/mingw64/include/wchar.h:
-
-C:/msys64/mingw64/include/_mingw_stat64.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/string:
 
@@ -1635,20 +1703,6 @@ C:/msys64/mingw64/include/locale.h:
 C:/msys64/mingw64/include/c++/12.1.0/bits/ostream_insert.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/ext/atomicity.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/gthr-default.h:
-
-C:/msys64/mingw64/include/process.h:
-
-C:/msys64/mingw64/include/corecrt_startup.h:
-
-C:/msys64/mingw64/include/pthread_compat.h:
-
-C:/msys64/mingw64/include/pthread_unistd.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/ext/string_conversions.h:
 
@@ -1667,10 +1721,6 @@ C:/msys64/mingw64/include/c++/12.1.0/bits/std_thread.h:
 C:/msys64/mingw64/include/c++/12.1.0/bits/this_thread_sleep.h:
 
 C:/msys64/mingw64/include/c++/12.1.0/atomic:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_base.h:
-
-C:/msys64/mingw64/include/c++/12.1.0/bits/atomic_lockfree_defines.h:
 
 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp:
 

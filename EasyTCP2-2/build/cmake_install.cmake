@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1
+# Install script for directory: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

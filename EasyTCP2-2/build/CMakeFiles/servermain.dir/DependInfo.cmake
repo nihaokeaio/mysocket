@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/cellserver.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj.d"
-  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj.d"
-  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj.d"
+  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Alloc.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj.d"
+  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/cellserver.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj.d"
+  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/mainserver.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj.d"
+  "C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/myserver.cpp" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj" "gcc" "CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1
+CMAKE_SOURCE_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build
+CMAKE_BINARY_DIR = C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/servermain.dir/depend.make
@@ -69,67 +69,84 @@ include CMakeFiles/servermain.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/servermain.dir/flags.make
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: CMakeFiles/servermain.dir/flags.make
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/cellserver.cpp
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/cellserver.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj: CMakeFiles/servermain.dir/flags.make
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Alloc.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Alloc.cpp
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/cellserver.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.i
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Alloc.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.i
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/cellserver.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.s
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/Alloc.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.s
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: CMakeFiles/servermain.dir/flags.make
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj: CMakeFiles/servermain.dir/flags.make
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/cellserver.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/cellserver.cpp
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.i
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/cellserver.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.i
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/mainserver.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.s
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/cellserver.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.s
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: CMakeFiles/servermain.dir/flags.make
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.cpp
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj: CMakeFiles/servermain.dir/flags.make
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/mainserver.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/mainserver.cpp
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.i
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/mainserver.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.i
 
-CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/MyTCP_server_ver2_1/myserver.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.s
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/mainserver.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.s
+
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj: CMakeFiles/servermain.dir/flags.make
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj: CMakeFiles/servermain.dir/includes_CXX.rsp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj: C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/myserver.cpp
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj: CMakeFiles/servermain.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj -MF CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj.d -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj -c C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/myserver.cpp
+
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/myserver.cpp > CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.i
+
+CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/MyTCP_server_ver2_2/myserver.cpp -o CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.s
 
 # Object files for target servermain
 servermain_OBJECTS = \
-"CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj" \
-"CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj" \
-"CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj"
+"CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj" \
+"CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj" \
+"CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj" \
+"CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj"
 
 # External object files for target servermain
 servermain_EXTERNAL_OBJECTS =
 
-servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_1/cellserver.cpp.obj
-servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_1/mainserver.cpp.obj
-servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_1/myserver.cpp.obj
+servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_2/Alloc.cpp.obj
+servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_2/cellserver.cpp.obj
+servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_2/mainserver.cpp.obj
+servermain.exe: CMakeFiles/servermain.dir/MyTCP_server_ver2_2/myserver.cpp.obj
 servermain.exe: CMakeFiles/servermain.dir/build.make
 servermain.exe: CMakeFiles/servermain.dir/linklibs.rsp
 servermain.exe: CMakeFiles/servermain.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable servermain.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable servermain.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/servermain.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/servermain.dir/objects.a @CMakeFiles/servermain.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/servermain.dir/objects.a -Wl,--no-whole-archive -o servermain.exe -Wl,--out-implib,libservermain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/servermain.dir/linklibs.rsp
@@ -143,6 +160,6 @@ CMakeFiles/servermain.dir/clean:
 .PHONY : CMakeFiles/servermain.dir/clean
 
 CMakeFiles/servermain.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-1/build/CMakeFiles/servermain.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2 C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build C:/Users/ZQD-N/Desktop/program/mytest/SOCKET/EasyTCP2-2/build/CMakeFiles/servermain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/servermain.dir/depend
 

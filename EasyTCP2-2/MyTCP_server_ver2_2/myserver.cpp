@@ -1,6 +1,6 @@
 #include "myserver.h"
 
-void Myeasyserver::InitSocket()
+SOCKET Myeasyserver::InitSocket()
 {
     //初始化，启动win，环境
 #ifdef _WIN32
@@ -22,6 +22,7 @@ void Myeasyserver::InitSocket()
     {
         printf("建立<Socket=%d>成功...\n", _sock);
     }
+    return _sock;
 }
 
 SOCKET Myeasyserver::Bind(const char *ip, unsigned short port)
@@ -98,16 +99,18 @@ int Myeasyserver::Accept()
     {
         // NewUserJoin userJoin;
         // SendDataToAll(&userJoin);
-        AddclientToCellserver(new ClientSock(csock));
+        ClientSock_SMP client = std::make_shared<ClientSock>(csock);
+        AddclientToCellserver(client);
         // printf("socket=<%d> 新客户加入,IP = %s\n",(int)csock,inet_ntoa(clientAddr.sin_addr));
     }
     return csock;
 }
-void Myeasyserver::AddclientToCellserver(ClientSock *pclient)
+typedef std::shared_ptr<ClientSock> ClientSock_SMP;
+void Myeasyserver::AddclientToCellserver(ClientSock_SMP& pclient)
 {
     OnNetJoin(pclient);
     auto pMinserver = _cellservers[0];
-    for (auto& x : _cellservers)
+    for (auto x : _cellservers)
     {
         if (x->getclientcount() < pMinserver->getclientcount())
             pMinserver = x;
@@ -117,25 +120,7 @@ void Myeasyserver::AddclientToCellserver(ClientSock *pclient)
 void Myeasyserver::Close()
 {
     if (_sock != INVALID_SOCKET)
-    {
-        // int sizenum = _cellservers.size();
-         for (int n = 0; n < _cellservers.size(); n++)
-        {
-        //     _cellservers[n]->Closecellserver();
-        //     while (_cellservers[n]->isRun())
-        //     {
-        //         std::chrono::milliseconds t(10);
-        //         std::this_thread::sleep_for(t);
-        //         continue;
-        //     }
-             /*if (_cellservers[n] != nullptr)
-             {
-                  delete _cellservers[n];
-                 _cellservers[n] = nullptr;
-                 printf("bey\n");
-             }*/
-         }
-        _cellservers.erase(_cellservers.begin(), _cellservers.end());
+    {      
 #ifdef _WIN32
         closesocket(_sock);
         //清楚windows socket环境
@@ -151,12 +136,13 @@ bool Myeasyserver::OnRun()
 {
     if (isRun())
     {
+        getMsgOnClient();
         fd_set fdReads;
         FD_ZERO(&fdReads);
 
         FD_SET(_sock, &fdReads);
 
-        getMsgOnClient();
+        
         timeval t = {0, 0};
         int ret = select(_sock + 1, &fdReads, nullptr, nullptr, &t);
         if (ret < 0)
@@ -180,11 +166,6 @@ bool Myeasyserver::isRun()
     return _sock != INVALID_SOCKET;
 }
 
-int Myeasyserver::RecvDate(ClientSock *csock)
-{
-    return 0;
-}
-
 void Myeasyserver::getMsgOnClient()
 {
     auto t1 = _curtime.getElapsedsecond();
@@ -201,33 +182,34 @@ void Myeasyserver::getMsgOnClient()
     }
 }
 
-void Myeasyserver::start()
+void Myeasyserver::start(int nCellServer)
 {
     using namespace std;
-    for (int i = 0; i < _SER_THREAD_COUNT; i++)
+    for (int i = 0; i < nCellServer; i++)
     {
         //_cellservers[i] = new Cellserver(_sock, this);
-         auto ser=new Cellserver(_sock,this);
+        auto ser = std::make_shared<Cellserver>(_sock);
         _cellservers.push_back(ser);
+        ser->setEventObj(this);       
         ser->start();
     }
 }
-void Myeasyserver::ClientleaveOn(ClientSock *pclient)
+void Myeasyserver::ClientleaveOn(ClientSock_SMP& pclient)
 {
     _clientCount--;
 }
 
-void Myeasyserver::Msgcount()
+void Myeasyserver::OnNetMsg(Cellserver* pcellserver,ClientSock_SMP& client,DataHeader* header)
 {
     _msgcount++;
 }
 
-void Myeasyserver::Recvcount()
+void Myeasyserver::Recvcount(ClientSock_SMP& client)
 {
     _recvcount++;
 }
 
-void Myeasyserver::OnNetJoin(ClientSock *plient)
+void Myeasyserver::OnNetJoin(ClientSock_SMP& plient)
 {
     _clientCount++;
 }
